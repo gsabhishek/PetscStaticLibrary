@@ -19,5 +19,5 @@ run: $(OBJECTS)
 %.o: %.cpp
 	$(CLINKER) -c -o $@ $< $(CCFLAGS)
 
-clean:
+CLEAN:
 	$(RM) $(OBJECTS)
